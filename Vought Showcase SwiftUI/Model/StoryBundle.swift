@@ -10,7 +10,7 @@ import SwiftUI
 // making a sample story model
 // StoryBundle -> number of stories for each user
 
-struct StoryBundle: Identifiable {
+struct StoryBundle: Identifiable, Hashable {
     var id = UUID().uuidString
     var profileName: String
     var profileImage: String
@@ -18,7 +18,7 @@ struct StoryBundle: Identifiable {
     var stories: [Story]
 }
 
-struct Story: Identifiable {
+struct Story: Identifiable, Hashable {
     var id = UUID().uuidString
     var imageURL: String
 }
