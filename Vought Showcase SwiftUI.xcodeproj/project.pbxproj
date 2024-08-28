@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A910D9572C7E732E0057A71B /* StoryBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910D9562C7E732E0057A71B /* StoryBundle.swift */; };
+		A910D9592C7EED4A0057A71B /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910D9582C7EED4A0057A71B /* StoryViewModel.swift */; };
+		A910D95B2C7F164C0057A71B /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910D95A2C7F164C0057A71B /* StoryView.swift */; };
 		A987FF942C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987FF932C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift */; };
 		A987FF962C7D731300734383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987FF952C7D731300734383 /* ContentView.swift */; };
 		A987FF982C7D731500734383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A987FF972C7D731500734383 /* Assets.xcassets */; };
 		A987FF9B2C7D731500734383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A987FF9A2C7D731500734383 /* Preview Assets.xcassets */; };
+		A987FFA52C7E4D0B00734383 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987FFA42C7E4D0A00734383 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A910D9562C7E732E0057A71B /* StoryBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBundle.swift; sourceTree = "<group>"; };
+		A910D9582C7EED4A0057A71B /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
+		A910D95A2C7F164C0057A71B /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		A987FF902C7D731300734383 /* Vought Showcase SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vought Showcase SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A987FF932C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vought_Showcase_SwiftUIApp.swift; sourceTree = "<group>"; };
 		A987FF952C7D731300734383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A987FF972C7D731500734383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A987FF9A2C7D731500734383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A987FFA42C7E4D0A00734383 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		A987FF922C7D731300734383 /* Vought Showcase SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A987FFA32C7DFA0800734383 /* ViewModel */,
+				A987FFA22C7DFA0200734383 /* View */,
+				A987FFA12C7DF9FC00734383 /* Model */,
 				A987FF932C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift */,
 				A987FF952C7D731300734383 /* ContentView.swift */,
 				A987FF972C7D731500734383 /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				A987FF9A2C7D731500734383 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A987FFA12C7DF9FC00734383 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A910D9562C7E732E0057A71B /* StoryBundle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A987FFA22C7DFA0200734383 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A987FFA42C7E4D0A00734383 /* Home.swift */,
+				A910D95A2C7F164C0057A71B /* StoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A987FFA32C7DFA0800734383 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A910D9582C7EED4A0057A71B /* StoryViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A910D95B2C7F164C0057A71B /* StoryView.swift in Sources */,
 				A987FF962C7D731300734383 /* ContentView.swift in Sources */,
+				A987FFA52C7E4D0B00734383 /* Home.swift in Sources */,
 				A987FF942C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift in Sources */,
+				A910D9592C7EED4A0057A71B /* StoryViewModel.swift in Sources */,
+				A910D9572C7E732E0057A71B /* StoryBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
