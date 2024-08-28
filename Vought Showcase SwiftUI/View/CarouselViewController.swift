@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StoryView: View {
+struct CarouselViewController: View {
     @EnvironmentObject var storyData: StoryViewModel
     var body: some View {
         if storyData.showStory {

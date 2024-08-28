@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A910D9572C7E732E0057A71B /* StoryBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910D9562C7E732E0057A71B /* StoryBundle.swift */; };
 		A910D9592C7EED4A0057A71B /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910D9582C7EED4A0057A71B /* StoryViewModel.swift */; };
-		A910D95B2C7F164C0057A71B /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910D95A2C7F164C0057A71B /* StoryView.swift */; };
+		A910D95B2C7F164C0057A71B /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910D95A2C7F164C0057A71B /* CarouselViewController.swift */; };
 		A987FF942C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987FF932C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift */; };
 		A987FF962C7D731300734383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987FF952C7D731300734383 /* ContentView.swift */; };
 		A987FF982C7D731500734383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A987FF972C7D731500734383 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		A910D9562C7E732E0057A71B /* StoryBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBundle.swift; sourceTree = "<group>"; };
 		A910D9582C7EED4A0057A71B /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
-		A910D95A2C7F164C0057A71B /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		A910D95A2C7F164C0057A71B /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
 		A987FF902C7D731300734383 /* Vought Showcase SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vought Showcase SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A987FF932C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vought_Showcase_SwiftUIApp.swift; sourceTree = "<group>"; };
 		A987FF952C7D731300734383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A987FFA42C7E4D0A00734383 /* Home.swift */,
-				A910D95A2C7F164C0057A71B /* StoryView.swift */,
+				A910D95A2C7F164C0057A71B /* CarouselViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A910D95B2C7F164C0057A71B /* StoryView.swift in Sources */,
+				A910D95B2C7F164C0057A71B /* CarouselViewController.swift in Sources */,
 				A987FF962C7D731300734383 /* ContentView.swift in Sources */,
 				A987FFA52C7E4D0B00734383 /* Home.swift in Sources */,
 				A987FF942C7D731300734383 /* Vought_Showcase_SwiftUIApp.swift in Sources */,

@@ -41,7 +41,7 @@ struct Home: View {
             .navigationTitle("Vought Showcase")
         }
         .overlay(
-            StoryView()
+            CarouselViewController()
                 .environmentObject(storyData)
         )
     }
